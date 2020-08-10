@@ -12,7 +12,7 @@ const influxUser = process.env.INFLUX_USER;
 const influxPass = process.env.INFLUX_PASS;
 
 const influxdb = new influx.InfluxDB({
-    host: 192.168.178.21,
+    host: '192.168.178.21',
 //    username: influxUser,
 //    password: influxPass,
     port: 8086,
